@@ -1,2 +1,2 @@
 # Azure
-All Copyright for https://github.com/scautomation
+(template-Azure-Inventory-Workbook.json) All Copyright for https://github.com/scautomation
