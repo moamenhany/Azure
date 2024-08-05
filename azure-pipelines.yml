@@ -11,7 +11,7 @@
   "parameters": {
     "vnetName": {
       "type": "string",
-      "defaultValue": "VNet100",
+      "defaultValue": "VNet1",
       "metadata": {
         "description": "VNet name"
       }
