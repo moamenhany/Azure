@@ -1,0 +1,18 @@
+trigger: 
+- main
+
+pool: 
+   vmImage: ubuntu-latest
+
+jobs:
+- deployment: VMDeploy
+  displayName: Deploy to VM
+  environment: 
+   name: VMenv
+   resourceName: VMenv
+   resourceType: virtualMachine
+  strategy:
+     runOnce:
+        deploy:   
+          steps:
+            - script: echo "Hello world"
